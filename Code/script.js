@@ -40,7 +40,7 @@ const recievedNews = (newsdata) => {
           </div>
           <div class="newsHide">
               <p>${shortDescription}</p>
-              <a href="${article.url}">Read more</a>
+              <a class="links" onclick="javascript:window.open('${article.url}', '_blank')">Läs mer</a>
           </div>
         </div>`
       }
@@ -62,7 +62,7 @@ const recievedNews = (newsdata) => {
           </div>
           <div class="newsHide">
               <p>${shortDescription}</p>
-              <a href="${article.url}">Read more</a>
+              <a class="links" onclick="javascript:window.open('${article.url}', '_blank')">Läs mer</a>
           </div>
         </div>`
       }
@@ -86,7 +86,7 @@ const recievedNews = (newsdata) => {
               </div>
               <div class="newsHide">
                   <p>${shortDescription}</p>
-                  <a href="${article.url}">Read more</a>
+                  <a class="links" onclick="javascript:window.open('${article.url}', '_blank')">Läs mer</a>
               </div>
             </div>`
           }
