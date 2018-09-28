@@ -277,7 +277,7 @@ justify-content: space-between;
   text-decoration: none;
   position: absolute;
   bottom: 10px;
-  
+
 }
 
 .newsHide {
@@ -364,6 +364,10 @@ footer p {
   background-image: url("hero-image-mobile.png");
 }
 
+.header a {
+  font-size: 10px;
+}
+
 .news {
   width: 100%;
   height: auto;
@@ -388,6 +392,13 @@ footer p {
   display: none;
 }
 
+footer p {
+ font-size: 10px;
+}
+
+footer .logo {
+  width: 80px;
+}
 
 /* .news-image { */
   /* position: absolute; */
