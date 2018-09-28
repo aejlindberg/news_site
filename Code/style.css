@@ -360,6 +360,18 @@ footer p {
 
 @media screen and (max-width: 600px) {
 
+  .heroImage h1 {
+    font-size: 46px;
+  }
+
+  .heroImage span {
+    letter-spacing: normal;
+  }
+
+  .heroImage h2 {
+    color: #fff;
+  }
+
 .heroImage {
   background-image: url("hero-image-mobile.png");
 }
